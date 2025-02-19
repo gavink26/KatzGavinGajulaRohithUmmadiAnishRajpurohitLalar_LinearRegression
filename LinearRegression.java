@@ -3,9 +3,9 @@ public class LinearRegression {
     public static double calcM(double[][] data) {
         int n = data.length;
         double sumX = 0; 
-        sumY = 0; 
-        sumXY = 0;
-        sumX2 = 0;
+        double sumY = 0; 
+        double sumXY = 0;
+        double sumX2 = 0;
 
         for (double[] point : data) {
             double x = point[0];
@@ -22,7 +22,7 @@ public class LinearRegression {
     public static double calcB(double[][] data) {
         int n = data.length;
         double sumX = 0; 
-        sumY = 0;
+        doube sumY = 0;
 
         for (double[] point : data) {
             sumX += point[0];
