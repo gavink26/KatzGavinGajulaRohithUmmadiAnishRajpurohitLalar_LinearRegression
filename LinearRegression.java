@@ -22,7 +22,7 @@ public class LinearRegression {
     public static double calcB(double[][] data) {
         int n = data.length;
         double sumX = 0; 
-        doube sumY = 0;
+        double sumY = 0;
 
         for (double[] point : data) {
             sumX += point[0];
